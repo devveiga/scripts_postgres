@@ -132,5 +132,5 @@ ALTER TABLE notafiscalentrada_itens ADD COLUMN alq_efetiva_cbs numeric(7, 4) DEF
 ALTER TABLE notafiscalentrada_itens ADD COLUMN alq_efetiva_ibs_uf numeric(7, 4) DEFAULT 0;
 ALTER TABLE notafiscalentrada_itens ADD COLUMN alq_efetiva_ibs_mun numeric(7, 4) DEFAULT 0;
 UPDATE produtos SET estoque = 10;
-
+UPDATE produtos SET nome = 'joaozin';
 
